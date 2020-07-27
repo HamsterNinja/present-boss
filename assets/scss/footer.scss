@@ -1,0 +1,132 @@
+footer.main-footer {
+    background-color: #0E1B2C;
+}
+.footer-content {
+    padding-bottom: 25px;
+}
+.footer-content .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+.footer-left {
+    width: 330px;
+}
+a.footer-logo {
+    margin-bottom: 17px;
+    display: block;
+}
+a.footer-phone {
+	display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-bottom: 7px;
+}
+.footer-address {
+    font-size: 18px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.footer-socials {
+    width: 215px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+.footer-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px;
+    width: calc(100% - 655px);
+    padding-top: 30px;
+}
+.footer-menu-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-menu-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu-content ul li {
+    margin-bottom: 15px;
+}
+.footer-menu-content ul li a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-right {
+    width: 265px;
+    padding-top: 30px;
+}
+.footer-right-name {
+    font-size: 20px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-right-pays {
+    margin-bottom: 20px;
+}
+.copyright {
+    font-size: 14px;
+    line-height: 114.19%;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+}
+.under-footer {
+    background-color: #E5E5E5;
+    padding: 20px 0;
+}
+.under-footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a.under-footer-link {
+    font-size: 13px;
+    line-height: 16px;
+    color: #0E1B2C;
+    text-decoration: none;
+}
+.under-footer-year {
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #0E1B2C;
+}
+a.is-art {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #0E1B2C;
+    text-decoration: none;
+}
+a.is-art img {
+    width: 52px;
+    margin-left: 10px;
+}
