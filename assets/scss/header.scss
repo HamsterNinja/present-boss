@@ -20,6 +20,10 @@ header.main-header {
 a.main-header-logo {
     margin-right: 45px;
 }
+body.home a.main-header-logo svg g path{
+    fill: #0E1B2C;
+}
+
 .main-header-menu{
 	flex-grow: 1;
 }

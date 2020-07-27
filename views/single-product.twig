@@ -18,11 +18,53 @@
 				    {% endfor %}
 				</div>
 			</div>
+			<div class="product-top-info">
+				<h1 class="product-title">Фляжка "Глухарь"</h1>
+				<div class="product-top-info-prices">
+					<div class="product-top-info-prices-name">Цена</div>
+					<div class="product-top-info-prices-content">
+						<div class="current-price">37 432 руб.</div>
+						<div class="old-price">46 790 руб.</div>
+					</div>
+				</div>
+				<div class="stock-info">Позвоните нам, чтобы узнать о наличии товара.</div>
+				<a href="" class="products-item-cart products-item--cart">Добавить в корзину</a>
+				<div class="product-info-rows">
+					{% for item in 0..3 %}
+					<div class="product-info-row">
+						<div class="product-info-name">Артикул:</div>
+						<div class="product-info-value">40390013К05</div>	
+					</div>
+					{% endfor %}
+				</div>
+				<div class="product-info-description-name">Описание товара:</div>
+				<div class="product-info-description-text">
+					С другой стороны, современная методология разработки выявляет срочную потребность системы массового участия. С учётом сложившейся международной обстановки, начало повседневной работы по формированию позиции способствует подготовке и реализации переосмысления внешнеэкономических политик. В рамках спецификации современных.
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="product-page-bottom">
 		<div class="container">
-			
+			<div class="populars-title">Рекомендуем</div>
+			<div class="populars-content">
+			{% for item in 0..3 %}
+				<div class="product-item">
+					<a href="" class="product-item-image">
+						<img src="{{ site.theme.link }}/assets/images/product-m.png" alt="">
+					</a>
+					<div class="product-item-info">
+						<a href="" class="product-item-cat">Фляжка</a>
+						<a href="" class="product-item-name">Название в две строки</a>
+						<div class="product-item-prices">
+							<div class="current-price">37 432 руб.</div>
+							<div class="old-price">46 790 руб.</div>
+						</div>
+						<a href="" class="product-item-buy">Купить</a>
+					</div>
+				</div>
+			{% endfor %}
+			</div>
 		</div>
 	</div>
 	<div class="bottom-seo">
