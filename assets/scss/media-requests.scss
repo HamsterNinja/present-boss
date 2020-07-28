@@ -1,0 +1,234 @@
+@media(max-height: 720px){
+    .main-page-slider {
+        flex-direction: column;
+    }
+    .main-slider-header {
+        width: 100%;
+    }
+    .main-slider-preview {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+    .socials {
+        left: calc((100% - 1200px) / 2);
+    }
+    a.swiper-product-item-img {
+        width: 155px;
+        height: 175px;
+    }
+    a.swiper-product-buy {
+        width: 105px;
+        height: 30px;
+    }
+    .swiper-slide.main-swiper-preview {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-slider-preview {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+}
+@media(max-width: 1400px){
+.main-header-left {
+    padding-left: calc((100% - 1230px) / 2);
+}
+}
+@media(max-width: 1280px){
+.hits-slider .swiper-button-next, .hits-slider .swiper-container-rtl .swiper-button-prev {
+    right: -14px;
+}
+.hits-slider .swiper-button-prev, .hits-slider .swiper-container-rtl .swiper-button-next {
+    left: 1px;
+}
+.hits-slider .product-item {
+    width: 273px;
+    margin: 0 auto;
+}
+.main-header-left {
+    width: calc(100% - 130px);
+}
+.main-header-right {
+    width: 130px;
+}
+}
+@media(max-width: 1230px){
+.socials {
+    left: 15px;
+}
+.hits-slider .product-item {
+    width: 273px;
+    margin: 0 auto;
+}
+.hits-slider .swiper-button-next, .hits-slider .swiper-container-rtl .swiper-button-prev {
+    right: 1px;
+}
+.hits-slider .swiper-button-prev, .hits-slider .swiper-container-rtl .swiper-button-next {
+    left: 1px;
+}
+}
+@media(max-width: 1100px){
+a.main-header-logo {
+    margin-right: 0px;
+}
+.main-header-menu ul li a {
+    padding: 8px 15px;
+}
+}
+@media(max-width: 1025px){
+.main-page-slider {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.swiper-slide.main-swiper-preview,
+.main-slider-header,
+.main-slider-preview{
+    height: auto;
+}
+.main-slider-header {
+    width: 100%;
+}
+.main-slider-preview {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+}
+.swiper-slide.main-swiper-header {
+    height: auto;
+}
+.swiper-slide.main-swiper-preview {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-slider-header {
+    position: relative;
+}
+.swiper-slide.main-swiper-header {
+    height: auto;
+    padding: 135px 0;
+}
+.main-header-left {
+    padding: 0 15px;
+}
+.main-page-cats-info {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.main-page-cats-content {
+    width: 100%;
+}
+.page-banner .container {
+    position: relative;
+    padding: 0 65px;
+}
+}
+
+@media(max-width: 890px){
+.footer-left {
+    width: 330px;
+    order: 1;
+}
+.footer-right {
+    order: 2;
+}
+.footer-menu {
+    max-width: 100%;
+    width: 100%;
+    order: 3;
+    padding: 30px 0 0 35px;
+}
+.main-page-hits-header {
+    display: block;
+}
+.hits-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.hits-buttons {
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.hits-button {
+    margin: 0 10px;
+}
+.page-banner {
+    padding: 175px 0 175px;
+}
+.banner-socials {
+    width: 37px;
+    height: 250px;
+    background-color: transparent;
+    border-radius: 0;
+    position: absolute;
+    top: calc(50% - 125px);
+    right: 15px;
+    padding-left: 0;
+}
+}
+@media(max-width: 680px){
+.footer-content .container {
+    flex-direction: column;
+}
+.footer-left {
+    width: 290px;
+    order: 1;
+    margin: 0 auto;
+}
+.footer-menu {
+    padding: 30px 35px 0 35px;
+}
+a.footer-logo svg {
+    width: 290px;
+    height: inherit;
+}
+.hits-button {
+    font-size: 14px;
+}
+}
+@media(max-width: 580px){
+.under-footer .container {
+    flex-direction: column;
+}
+.under-footer-year {
+    margin: 10px 0;
+}
+.page-banner .container {
+    position: relative;
+    padding: 0 65px 0 15px;
+}
+}
+@media(max-width: 520px){
+.main-page-cats-info {
+    padding: 25px 15px 1px 15px;
+}
+.trigger-item {
+    width: 50%;
+    margin-bottom: 25px;
+}
+a.main-page-cat-item {
+    width: 100%;
+    height: 302px!important;
+    background-position: 100% 100%;
+}
+}
+@media(max-width: 440px){
+.hits-buttons {
+    display: block;
+    text-align: center;
+}
+.hits-button {
+    margin-bottom: 15px;
+}
+}
+@media(max-width: 420px){
+.footer-menu {
+    padding: 30px 35px;
+    text-align: center;
+    flex-direction: column;
+}
+}

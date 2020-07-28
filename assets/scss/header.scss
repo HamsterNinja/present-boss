@@ -129,81 +129,51 @@ span.count-prod {
 }
 
 /* search */
-.sb-search {
-    position: relative;
-    width: 0%;
-    min-width: 30px;
-    height: 25px;
-    margin-right: 20px;
-    overflow: hidden;
-    transition: width 0.3s;
-    -webkit-backface-visibility: hidden;
-}
-
-.sb-search-input {
+.search-block {
     position: absolute;
     top: 0;
+    left: 0;
     right: 0;
-    border: 1px solid #cecece;
-    outline: none;
-    background-color: #fff;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    z-index: 10;
-    font-size: 14px;
-    padding-left: 14px;
-    color: #2c3e50;
-    border-radius: 0;
-}
-
-.sb-icon-search,
-.sb-search-submit  {
-    width: 30px;
-    height: 30px;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    line-height: 60px;
-    text-align: center;
-    cursor: pointer;
+    padding: 30px 50px;
     background-color: #0e1b2c;
+    z-index: 9;
+    display: none;
 }
-
-.sb-search-submit {
+.js-search {
+    margin-right: 20px;
+}
+form#searchform {
+    position: relative;
+}
+.sb-search-input {
+    width: 100%;
     background: transparent;
-    opacity: 0;
-    color: transparent;
     border: none;
-    outline: none;
-    z-index: -1;
-    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    padding: 7px 0;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
 }
-
-.sb-icon-search {
-    z-index: 90;
-    background-image: url(../images/search.svg);
-    background-repeat: no-repeat;
-    background-position: 47% 50%;
-    border-radius: 0;
-}
-
-/* Open state */
-.sb-search.sb-search-open, .no-js .sb-search {
-    width: calc(100% - 55px);
-}
-
-.sb-search.sb-search-open .sb-icon-search,
-.no-js .sb-search .sb-icon-search {
+.sb-search-input::placeholder{
     color: #fff;
-    z-index: 11;
+    opacity: 1;
 }
-
-.sb-search.sb-search-open .sb-search-submit,
-.no-js .sb-search .sb-search-submit {
-    z-index: 90;
+input.sb-search-submit {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    background-color: #fff;
+    border: none;
+    width: 100px;
 }
-/* end search */
+.search-close {
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/search-close.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}

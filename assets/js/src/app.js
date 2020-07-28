@@ -35,13 +35,13 @@ $(document).ready(function (){
 	      prevEl: '.swiper-buttons .swiper-button-prev',
 	    },
       breakpoints: {
-        420: {
+        600: {
           slidesPerView: 2,
         },
-        1380: {
+        860: {
           slidesPerView: 3,
         },
-        1650: {
+        1230: {
           slidesPerView: 4,
         },
       }

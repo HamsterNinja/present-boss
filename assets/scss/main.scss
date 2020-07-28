@@ -193,7 +193,7 @@ span.swiper-pagination-current {
 .main-slider-header .swiper-button-next, .main-slider-header .swiper-button-prev,
 .page_about-gallery .swiper-button-next, .page_about-gallery .swiper-button-prev {
     border-radius: 50%;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.4);
     width: 36px;
     height: 36px;
     z-index: 99;
@@ -516,6 +516,9 @@ a.product-item-buy:hover {
 .catalog-filter {
     position: absolute;
     bottom: calc(100% + 24px);
+}
+.filter-item.filter-price {
+    margin-right: 60px;
 }
 .filter-item-name {
     font-size: 18px;
