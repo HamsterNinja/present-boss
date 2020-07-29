@@ -157,6 +157,10 @@ a.main-header-phone {
     width: 100%;
     margin-top: 40px;
 }
+.page_about-gallery .preview-pagi {
+    bottom: -20px;
+    right: 0;
+}
 }
 @media(max-width: 890px){
 	a.main-header-logo svg {
@@ -359,6 +363,12 @@ ul.mobile-menu-content-inner {
     position: relative;
     padding: 0 15px;
 }
+.page-banner._about {
+    padding: 150px 0 45px;
+}
+.page_about-text p {
+    font-size: 16px;
+}
 }
 @media(max-width: 680px){
 .footer-content .container {
@@ -383,6 +393,17 @@ a.footer-logo svg {
 }
 .hits-button {
     font-size: 14px;
+}
+.page_about-text {
+    margin-bottom: 25px;
+}
+.page_about-gallery {
+    margin-bottom: 45px;
+    position: relative;
+}
+.page_about-content {
+    background-color: #0E1B2C;
+    padding: 50px 0 30px;
 }
 }
 @media(max-width: 580px){
@@ -439,7 +460,7 @@ a.main-page-cat-item {
 }
 }
 @media(max-width: 460px){
-	.product-slick-for-content {
+.product-slick-for-content {
     width: 100%;
     height: 230px;
     background-color: #fff;
