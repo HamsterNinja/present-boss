@@ -81,6 +81,18 @@ a.main-header-logo {
 }
 }
 @media(max-width: 1025px){
+a.main-header-phone {
+    font-size: 0;
+    padding-left: 0;
+    height: 20px;
+    width: 20px;
+    background-position: 50%;
+    background-size: contain;
+}
+.main-header-right {
+    padding: 0 20px 0 15px;
+    width: 110px;
+}
 .main-page-slider {
     flex-direction: column;
     align-items: flex-start;
@@ -113,7 +125,8 @@ a.main-header-logo {
     padding: 135px 0;
 }
 .main-header-left {
-    padding: 0 15px;
+    padding: 0 0 0 15px;
+    width: calc(100% - 110px);
 }
 .main-page-cats-info {
     width: 100%;
@@ -129,6 +142,10 @@ a.main-header-logo {
 }
 
 @media(max-width: 890px){
+	a.main-header-logo svg {
+    width: 235px;
+    height: inherit;
+}
 .footer-left {
     width: 330px;
     order: 1;
@@ -170,6 +187,152 @@ a.main-header-logo {
     padding-left: 0;
 }
 }
+@media(max-width: 767px){
+	a.main-header-logo svg {
+    width: 50px;
+    height: inherit;
+}
+.socials{
+	display: none;
+}
+.socials.mobile {
+    display: flex;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+	.btn-hamburger {
+        display: block;
+    }
+    .mobile-menu {
+    position: fixed;
+    z-index: 9;
+    min-width: 280px;
+    width: 63%;
+    top: 0;
+    right: -481px;
+    left: auto;
+    bottom: 0;
+    overflow: auto;
+    background-color: #0e1b2c;
+    max-width: 480px;
+    font-size: 0;
+    transition: 1s ease;
+    display: block;
+}
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .mobile-controls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: calc(100% - 60px);
+    }
+
+    .mobile-controls .main-header-search {
+        width: calc(100% - 60px);
+    }
+
+    .mobile-menu-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 12px 5px;
+}
+ul.mobile-menu-content-inner {
+    padding: 7px 0;
+}
+    .mobile-sub-menu-item {
+    display: none;
+    padding: 0;
+}
+    .mobile-menu-content-inner li {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        margin-top: -1px;
+    }
+
+    .mobile-menu-content-inner li a {
+	    font-size: 18px;
+	    line-height: 1.25;
+	    font-weight: normal;
+	    font-style: normal;
+	    letter-spacing: 0em;
+	    color: #fff;
+	    text-decoration: none;
+	    padding: 14px 15px 18px 25px;
+	    display: inline-block;
+	    vertical-align: middle;
+	    width: calc(100% - 54px);
+	}
+
+    .mobile-sub-menu-item li a {
+    padding-left: 40px;
+    color: #fff;
+    width: 100%;
+}
+
+    .mobile-sub-menu-item .mobile-sub-menu-item li a {
+        padding-left: 55px;
+    }
+
+    .menu-toggle {
+        display: inline-block;
+        vertical-align: middle;
+        width: 54px;
+        padding: 24px 10px;
+        text-align: center;
+    }
+
+    .main-header-lk svg path {
+        fill: #0f1a48;
+    }
+
+    .menu-toggle svg path {
+    fill: #fff;
+}
+
+    .menu-toggle.active svg {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+    .main-header-menu{
+    	display: none;
+    }
+    .main-header-left {
+    padding: 0 0 0 15px;
+    width: calc(100% - 150px);
+}
+.main-header-right {
+    width: 145px;
+    justify-content: space-between;
+    align-items: center;
+}
+.js-search {
+    margin-right: 0;
+}
+.swiper-slide.main-swiper-header {
+    height: auto;
+    padding: 80px 0 90px;
+}
+.main-swiper-header-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.main-swiper-header-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.main-header-logo.mobile{
+	display: block;
+}
+.main-header-logo.desktop{
+	display: none;
+}
+}
 @media(max-width: 680px){
 .footer-content .container {
     flex-direction: column;
@@ -181,6 +344,11 @@ a.main-header-logo {
 }
 .footer-menu {
     padding: 30px 35px 0 35px;
+}
+.footer-right {
+    order: 3;
+    margin: 0 auto;
+    padding-top: 0;
 }
 a.footer-logo svg {
     width: 290px;
@@ -200,6 +368,12 @@ a.footer-logo svg {
 .page-banner .container {
     position: relative;
     padding: 0 65px 0 15px;
+}
+.preview-pagi {
+    position: absolute;
+    right: 15px;
+    width: 200px;
+    bottom: 15px;
 }
 }
 @media(max-width: 520px){

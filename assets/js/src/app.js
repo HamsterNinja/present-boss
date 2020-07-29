@@ -1,4 +1,15 @@
 $(document).ready(function (){
+$('.btn-hamburger').click(function() {    
+        $('.mobile-menu').addClass('active');
+    });
+    $('.btn-hamburger.active').click(function() {    
+        $('.mobile-menu').removeClass('active');
+    });
+    $('.menu-toggle').click(function() {
+        $(this).parent().find('.mobile-sub-menu-item').filter(':first').slideToggle();
+        $(this).toggleClass('active');
+    });
+  
 	var swiper = new Swiper('.swiper-container.main-swiper', {
 	      slidesPerView: 1,
 	      loop: true,
