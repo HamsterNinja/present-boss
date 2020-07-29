@@ -71,6 +71,9 @@
 .hits-slider .swiper-button-prev, .hits-slider .swiper-container-rtl .swiper-button-next {
     left: 1px;
 }
+.product-slick-for {
+    width: calc(100% - 126px);
+}
 }
 @media(max-width: 1100px){
 a.main-header-logo {
@@ -140,7 +143,21 @@ a.main-header-phone {
     padding: 0 65px;
 }
 }
-
+@media(max-width: 940px){
+.product-gallery {
+    width: 100%;
+}
+.product-top-info {
+    width: 100%;
+}
+.product-page-top .container {
+    flex-direction: column-reverse;
+}
+.product-gallery {
+    width: 100%;
+    margin-top: 40px;
+}
+}
 @media(max-width: 890px){
 	a.main-header-logo svg {
     width: 235px;
@@ -332,6 +349,16 @@ ul.mobile-menu-content-inner {
 .main-header-logo.desktop{
 	display: none;
 }
+.banner-socials {
+    display: none;
+}
+.page-banner {
+    padding: 100px 0 110px;
+}
+.page-banner .container {
+    position: relative;
+    padding: 0 15px;
+}
 }
 @media(max-width: 680px){
 .footer-content .container {
@@ -365,15 +392,36 @@ a.footer-logo svg {
 .under-footer-year {
     margin: 10px 0;
 }
-.page-banner .container {
-    position: relative;
-    padding: 0 65px 0 15px;
-}
 .preview-pagi {
     position: absolute;
     right: 15px;
     width: 200px;
     bottom: 15px;
+}
+h1.page-banner-title {
+    font-size: 34px;
+    margin: 0 0 15px 0;
+}
+.page-banner-text {
+    font-size: 12px;
+}
+.filter-item-name {
+    font-size: 16px;
+}
+a.product-item-image {
+    height: 155px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+a.product-item-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+    height: auto;
+}
+.product-slick-for-content {
+    width: 100%;
+    height: 390px;
+    background-color: #fff;
 }
 }
 @media(max-width: 520px){
@@ -390,6 +438,25 @@ a.main-page-cat-item {
     background-position: 100% 100%;
 }
 }
+@media(max-width: 460px){
+	.product-slick-for-content {
+    width: 100%;
+    height: 230px;
+    background-color: #fff;
+}
+.product-slick-nav-content {
+    background-color: #fff;
+    height: 80px !important;
+    margin: 8px 0;
+}
+.product-slick-nav {
+    width: 80px;
+    margin-right: 16px;
+}
+.product-slick-for {
+    width: calc(100% - 96px);
+}
+}
 @media(max-width: 440px){
 .hits-buttons {
     display: block;
@@ -397,6 +464,17 @@ a.main-page-cat-item {
 }
 .hits-button {
     margin-bottom: 15px;
+}
+.filter-item.filter-price {
+    margin-right: 25px;
+}
+.sort-value {
+    font-size: 14px;
+    line-height: 154.6%;
+    color: #FFFFFF;
+}
+.filter-item-content {
+    width: 192px;
 }
 }
 @media(max-width: 420px){

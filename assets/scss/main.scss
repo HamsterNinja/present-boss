@@ -722,7 +722,7 @@ a.prev, a.next {
 }
 .product-page-top {
     background-color: #0B1421;
-    padding: 35px 0 95px;
+    padding: 150px 0 95px;
 }
 
 .product-page-top .container {
@@ -736,6 +736,7 @@ a.prev, a.next {
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
+    width: calc(100% - 405px);
 }
 .slick-prev:before, .slick-next:before{
 	display: none;

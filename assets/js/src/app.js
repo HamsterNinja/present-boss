@@ -9,7 +9,7 @@ $('.btn-hamburger').click(function() {
         $(this).parent().find('.mobile-sub-menu-item').filter(':first').slideToggle();
         $(this).toggleClass('active');
     });
-  
+
 	var swiper = new Swiper('.swiper-container.main-swiper', {
 	      slidesPerView: 1,
 	      loop: true,
@@ -98,7 +98,26 @@ $('.product-slick-nav').slick({
   dots: false,
   arrows: true,
   centerMode: false,
-  focusOnSelect: true
+  focusOnSelect: true,
+  responsive: [
+    {
+      breakpoint: 580,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      }
+    },
+    {
+      breakpoint: 460,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 
     $('.hits-button').click(function (event) {
