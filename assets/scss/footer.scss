@@ -27,6 +27,10 @@ a.footer-phone {
     text-decoration: none;
     margin-left: 40px;
     margin-bottom: 7px;
+    transition: 0.3s ease;
+}
+a.footer-phone:hover {
+    color: #ad8351;
 }
 .footer-address {
     font-size: 18px;
@@ -75,6 +79,10 @@ a.footer-phone {
     color: #FFFFFF;
     text-decoration: none;
 }
+.footer-menu-content ul li a:hover {
+    text-decoration: underline;
+}
+
 .footer-right {
     width: 265px;
     padding-top: 30px;
@@ -109,6 +117,9 @@ a.under-footer-link {
     line-height: 16px;
     color: #0E1B2C;
     text-decoration: none;
+}
+a.under-footer-link:hover {
+    text-decoration: underline;
 }
 .under-footer-year {
     font-size: 13px;

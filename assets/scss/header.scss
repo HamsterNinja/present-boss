@@ -87,7 +87,9 @@ ul.sub-menu li a {
     background-image: none!important;
     border-radius: 0!important;
 }
-
+ul.sub-menu li a:hover {
+    color: #AD8351;
+}
 a.main-header-phone {
     font-size: 15px;
     line-height: 114.19%;
@@ -141,6 +143,7 @@ span.count-prod {
 }
 .js-search {
     margin-right: 20px;
+    cursor: pointer;
 }
 form#searchform {
     position: relative;
